@@ -13,8 +13,8 @@ POST http://localhost:3333/events/4c4d9831-a453-466b-bfab-b369c39a3835/attendees
 Content-Type: application/json
 
 {
-   "name": "Pedro Lucas",
-   "email": "pedrolucasmn03@gmail.com"
+   "name": "User",
+   "email": "user@api.com"
 }
 
 ###
