@@ -1,0 +1,34 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+   "title": "Evento único",
+   "details": null,
+   "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/4c4d9831-a453-466b-bfab-b369c39a3835/attendees
+Content-Type: application/json
+
+{
+   "name": "Pedro Lucas",
+   "email": "pedrolucasmn03@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/fcb72b2d-d66a-4ec9-9459-d6806b4b870c
+
+###
+
+GET http://localhost:3333/attendees/2/badge
+
+###
+
+GET http://localhost:3333/attendees/4/check-in
+
+###
+
+GET http://localhost:3333/events/fcb72b2d-d66a-4ec9-9459-d6806b4b870c/attendees
